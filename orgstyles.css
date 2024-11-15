@@ -1,0 +1,215 @@
+*{
+    text-decoration: none;
+}
+.container{
+    height: 50px;
+    width:100%;
+    background-color: grey;
+    text-align: center;
+    justify-content: center;
+    
+}
+.name{
+    padding-top: 20px;
+    text-decoration:wavy;
+    position: fixed;
+    font-size: larger;
+    z-index: 1000;
+}
+
+.icons li {
+     margin-right: 20px;
+     text-align:justify;
+     
+}
+.container a {
+    text-decoration: none;
+    color: orange;
+}
+.container a:hover{
+    color:yellow;
+}
+.home-img img{
+    width:max-content;
+}
+.home-img img {
+    width: 100%;
+}
+.homep{
+  font-weight: 600;
+}
+.about{
+    display:flex;
+    font-size: large;
+}
+.about-head{
+    margin-left:80px;
+    color:orangered;
+    font-size:x-large;
+    font-weight: 400;
+ 
+}
+
+.aboutp{
+    display: flex;
+    margin-top: -320px;
+    margin-left: 800px;
+    font-weight: 600;
+    margin-right:100px;
+    font-size: larger;
+    
+}
+
+.heading {
+    text-align: center;
+    color: orangered;
+    padding-top:50px ;
+    font-size: xx-large;
+  }
+  .heading span {
+    color: var(--main-color);
+    font-weight: 500;
+  }
+  .heading h2 {
+    font-size: var(--h2-font);
+  }
+  .menu-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+    gap: 1.5rem;
+    align-items: center;
+  }
+  .box {
+    position: relative;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    padding: 10px;
+    border: solid black;
+    background-color:yellowgreen;
+    height: 400px;
+    width: 200px;
+    margin-left: 65px;
+    
+  }
+  .box:hover { 
+    transform: scale(1.05); 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    
+  }
+  .box-img {
+    width: 200px;
+    height: 200px;
+  }
+  .box-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+
+  }
+  .box h2 {
+    font-size: 1.2rem;
+  }
+  .box h3 {
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 4px 0 10px;
+  }
+  .box span {
+    
+    font-weight: 500;
+
+  }
+
+  .last{
+    display: flex;
+  }
+  .naav{
+    padding-top: 15px;
+    font-size: larger;
+    word-spacing: 10px;
+  }
+  .button{
+    color:white;
+    background-color:solid red;
+    margin-top: 5px;
+  }
+  button:hover{
+    background-color:darkred;
+  }
+  #box1{
+    margin-left: 450px;
+    
+  }
+  #box4{
+    margin-top:-425px;
+
+  }
+  .social{
+    color: black;
+  }
+  .menulinks{
+    margin-top: 40px;
+  }
+
+  .contact-container { 
+    background-color: white; 
+    padding: 20px; 
+    margin: 20px auto; 
+    max-width: 600px; 
+    
+  } 
+  .contact-container h2 { 
+    color: #ff6347; 
+  } 
+  form { 
+    display: flex; 
+    flex-direction: column; 
+    background-color: rgb(255, 255, 255);
+    height: -100px;
+
+  } 
+  label { 
+    margin-top: 10px; 
+  } 
+  input[type="text"], input[type="email"], textarea { 
+    padding: 10px; 
+    margin-top: 5px; 
+    margin-bottom: 15px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+  } 
+  button {
+     background-color: #ff6347; 
+     color: white; 
+     border: none; 
+     padding: 10px; 
+     border-radius: 4px; 
+     cursor: pointer; 
+    } 
+    button:hover{
+     background-color: #ff7a49;
+    }
+  .contact{
+     background-image: url("https://static.vecteezy.com/system/resources/previews/016/998/883/original/cartoon-flat-style-drawing-hands-out-of-smartphone-screen-with-tray-open-to-serve-delicious-italian-pizza-digital-app-order-online-food-delivery-service-concept-graphic-design-illustration-vector.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: fixed;
+  }
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    width: 100%;
+  }
+     
+     
+     
+
+   
+
